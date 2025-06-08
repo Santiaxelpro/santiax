@@ -31,7 +31,7 @@
         loader: "unity",
         maxRatio: 16 / 9,
         minRatio: 9 / 16,
-        thumbnail: "thumbnail.jpg",
+        thumbnail: "thumbnail.webp",
         numScreenshots: 4,
         commentChangeTime: 5e3,
         spinnerRemoveDelay: 1e3,
@@ -233,7 +233,7 @@
         d = document.createElement("img");
     d.id = "thumbnail", d.alt = r.a.title, d.title = r.a.title;
     var u = r.a.thumbnail;
-    u.startsWith("./") && (u = "./thumbnail.jpg".concat(u.substr(21))), d.src = u;
+    u.startsWith("./") && (u = "./thumbnail.webp".concat(u.substr(21))), d.src = u;
     var h = i("slideshow-top-container"),
         f = i("game-title");
     f.innerText = r.a.title;
