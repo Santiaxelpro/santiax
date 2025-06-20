@@ -1,6 +1,4 @@
-# santiax.github.io
-
-Esta página está protegida por la licencia del MIT
+# santiaxelpro.github.io/santiax/
 
 Se permite el uso de forks o la descarga de esta pagina,
 
